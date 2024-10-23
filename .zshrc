@@ -37,3 +37,7 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+
+# Set nvim as default editor
+export VISUAL=nvim
+export EDITOR="$VISUAL"
