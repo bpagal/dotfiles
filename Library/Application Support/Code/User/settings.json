@@ -75,6 +75,5 @@
     "**/*.sass",
     "**/*.less",
     "**/*.styl"
-  ],
-  "editor.lineNumbers": "relative"
+  ]
 }
