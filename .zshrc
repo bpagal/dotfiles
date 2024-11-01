@@ -11,7 +11,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # Aliases
 alias lz="lazygit"
-alias devp="cd ~/Documents/dev-projects"
+alias devp="cd ~/Code/projects"
 alias nv="nvim"
 alias vim="nvim"
 
