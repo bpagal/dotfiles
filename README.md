@@ -11,6 +11,7 @@
 - kitty terminal
 - nvim
 - zellij
+- fzf
 
 ## List of configs
 
@@ -23,4 +24,5 @@
 - zellij
 - vscode
 - wezterm
-
+- fzf
+- lazygit
