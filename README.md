@@ -2,6 +2,7 @@
 
 ### Prerequisites
 
+- gnu stow
 - git
 - zsh as your main shell
 
