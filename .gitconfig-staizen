@@ -1,0 +1,7 @@
+# STAIZEN SPECIFIC CONFIG FILE
+[user]
+  # STAIZEN EMAIL
+  email = "brian.pagal@staizen.com"
+[core]
+  # STAIZEN SSH KEY
+  sshCommand = "ssh -i ~/.ssh/id_rsa_staizen"
