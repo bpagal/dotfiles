@@ -34,7 +34,7 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Set up fzf key bindings and fuzzy completion
-# source <(fzf --zsh)
+source <(fzf --zsh)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -43,4 +43,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # staizen delete later
-source ~/Code/staizen/act/.core-fe-env
+# source ~/Code/staizen/act/.core-fe-env
