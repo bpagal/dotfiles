@@ -2,8 +2,5 @@
 	email = brianpagal@gmail.com
 	name = Brian Pagal
 
-[includeIf "gitdir:/home/brianpagal/Code/staizen/"]
-    path = /home/brianpagal/.gitconfig-staizen
-
 [init]
 	defaultBranch = main
