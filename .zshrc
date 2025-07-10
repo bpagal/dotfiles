@@ -42,3 +42,9 @@ export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
+
+# add bin to path
+export PATH="$HOME/bin:$PATH"
+
+# global shell scripts
+alias zad="zad.sh"
