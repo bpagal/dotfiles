@@ -1,0 +1,12 @@
+[user]
+  name = Brian Pagal
+  email = brian.pagal@bilue.com.au
+
+[init]
+	defaultBranch = main
+
+[includeIf "gitdir:/Users/brian.pagal/Development/ticketek/"]
+  path = /Users/brian.pagal/.gitconfig-ticketek
+
+[includeIf "gitdir:/Users/brian.pagal/dotfiles/"]
+  path = /Users/brian.pagal/.gitconfig-personal
