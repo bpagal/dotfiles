@@ -7,7 +7,7 @@ fi
 
 # Aliases
 alias lz="lazygit"
-alias devp="cd ~/Documents/dev-projects"
+alias devp="cd ~/Development"
 alias nv="nvim"
 alias vim="nvim"
 alias delnodemodules="rm -rf node_modules"
@@ -38,3 +38,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
