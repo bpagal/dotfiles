@@ -1,0 +1,15 @@
+{
+  "visual console log": {
+    "prefix": "cllg",
+    "body": [
+      "console.log('💖💛💚💙💜 ${1:example}');",
+      "console.log(${1:example});"
+    ],
+    "description": "visual console log"
+  },
+  "observe useEffect": {
+    "prefix": "obseff",
+    "body": ["React.useEffect(()=>{", "  ${1}", "},[])"],
+    "description": "observe useEffect"
+  }
+}
