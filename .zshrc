@@ -11,6 +11,7 @@ alias devp="cd ~/Development"
 alias nv="nvim"
 alias vim="nvim"
 alias delnodemodules="rm -rf node_modules"
+alias clnav="/Users/brian.pagal/Development/ticketek/frontend/brian-scripts/clnav.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
