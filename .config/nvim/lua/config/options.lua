@@ -3,5 +3,5 @@
 -- Add any additional options here
 
 vim.g.snacks_animate = false
-vim.g.autoformat = false
+vim.g.autoformat = true
 vim.g.editorconfig = false
