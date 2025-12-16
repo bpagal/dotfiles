@@ -32,12 +32,15 @@ local function bindAppHotkey(key, appName)
 end
 
 -- Define app bindings
+-- keyboard row 1
 bindAppHotkey("1", "Brave Browser")
-bindAppHotkey("2", "Messenger")
+bindAppHotkey("2", "Safari")
 bindAppHotkey("3", "Telegram")
+-- keyboard row 2
 bindAppHotkey("Q", "Microsoft Excel")
 bindAppHotkey("W", "Microsoft PowerPoint")
 bindAppHotkey("E", "Google Chrome")
+bindAppHotkey("S", "Viber")
 
 -- Move window and mouse to other monitor using Option + Shift + Tab
 hs.hotkey.bind({ "alt", "shift" }, "tab", function()
