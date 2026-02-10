@@ -1,1 +1,1 @@
-require("hammerspoon-config")
+require("hammerspoon-config-brian")

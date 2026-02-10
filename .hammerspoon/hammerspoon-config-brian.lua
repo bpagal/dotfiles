@@ -1,4 +1,4 @@
 require("browsers")
 require("window-management")
-require("open-jira-ticket")
+require("work-keybinds-brian")
 require("app-keybinds-brian")
