@@ -11,6 +11,5 @@
 [includeIf "gitdir:/Users/brian.pagal/dotfiles/"]
   path = /Users/brian.pagal/.gitconfig-personal
 
-
 [includeIf "gitdir:/Users/brian.pagal/Development/keybinds-infographic-maker"]
   path = /Users/brian.pagal/.gitconfig-personal
