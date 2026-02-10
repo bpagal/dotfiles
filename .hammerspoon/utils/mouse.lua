@@ -1,5 +1,7 @@
+local M = {}
+
 -- Utility: Move mouse to center of app's main window, only if cursor is on a different screen
-local function moveMouseToApp(appName)
+function M.moveMouseToApp(appName)
 	local app = hs.appfinder.appFromName(appName)
 	if not app then
 		return
@@ -21,10 +23,4 @@ local function moveMouseToApp(appName)
 	end
 end
 
--- App bindings with smart mouse follow
-local function bindAppHotkey(key, appName)
-	hs.hotkey.bind(alt, key, function()
-		hs.application.launchOrFocus(appName)
-		moveMouseToApp(appName)
-	end)
-end
+return M
