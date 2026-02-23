@@ -49,3 +49,17 @@ hs.hotkey.bind({ "alt", "shift" }, "X", function()
 		hs.eventtap.keyStroke({ "ctrl", "shift" }, "pagedown", 0)
 	end
 end)
+
+-- Alt + Shift + A - go back one page
+hs.hotkey.bind({ "alt", "shift" }, "A", function()
+	if isCurrentAppBrowser() then
+		hs.eventtap.keyStroke({ "cmd" }, "left")
+	end
+end)
+
+-- Alt + Shift + S - go forward one page
+hs.hotkey.bind({ "alt", "shift" }, "S", function()
+	if isCurrentAppBrowser() then
+		hs.eventtap.keyStroke({ "cmd" }, "right")
+	end
+end)
